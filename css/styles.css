@@ -17,7 +17,7 @@ img {display: block; max-width: 100%; height: auto;}
 
 .container { 
      
-    width: 350px;
+    
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -32,8 +32,8 @@ img {display: block; max-width: 100%; height: auto;}
 .section-main-title {
     background-color: #2e2f42; 
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),  
+        rgba(46, 47, 66, 0.5),
+        rgba(46, 47, 66, 0.5)),  
     url(../images/Screenshot\ 2026-01-21\ 134744.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +61,8 @@ img {display: block; max-width: 100%; height: auto;}
     height: 44px;
 }
 .great-britain{
-   margin-left: 184px;
+   text-align: right;
+   padding-right: 90px;
     font-size: 16px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -94,7 +95,15 @@ img {display: block; max-width: 100%; height: auto;}
 .time-text{
     border-radius: 12px;
     border: 2px solid #ffffff;
-    padding: 6px 20px;
+    padding: 6px 10px;
+}
+.adress{
+    font-size: 14px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 30px;
 }
 
 
